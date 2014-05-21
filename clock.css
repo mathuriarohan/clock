@@ -1,0 +1,22 @@
+#bg{
+	position:absolute;
+	width:400px;
+	height:auto;
+}
+#min{
+	position:absolute;
+	left:140px;
+	top:195px;
+	width:200px;
+	-webkit-transform-origin:34% 60% 0;
+	-moz-transform-origin:34% 60% 0;
+	-o-transform-origin:34% 60% 0;
+	-ms-transform-origin:34% 60% 0;
+	height:auto;
+}
+#num{
+	position:absolute;
+	left: 450px;
+	top: 350px;
+	font-size: 20px;
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clock</title>
+		<link rel = "stylesheet" type = "text/css" href = "clock.css">
+		<script type = "text/javascript" src = "clock.js"></script>
+	</head>
+	<body>
+		<img src = "clock_bg.png" id = "bg" ondragstart = "return false;">
+		<img src = "minute.png" id = "min" ondragstart = "return false;" onmousedown = "isMouseDown = true;">
+		<input type = "number" value = "15" onkeyup = "updateAngle(document.getElementById('num').value)" id = 'num'>
+	</body>
+</html>
